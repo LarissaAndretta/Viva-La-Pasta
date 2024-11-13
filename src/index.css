@@ -1,3 +1,39 @@
 .img1{
   padding-right: 20px;
 }
+
+/* Adiciona um fundo amarelo claro à página */
+.page-background {
+  background-color: #fff9e6; /* amarelo suave */
+  min-height: 100vh;
+  padding: 10px 20px 15px 20px;
+}
+
+/* Estilo para o header com uma faixa amarela */
+.header-bar {
+  background-color: #ffd700; /* amarelo mais vivo */
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+/* Estilos para a logo, nome e pesquisa */
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #333; /* Cor para contraste */
+}
+
+.header-logo img{
+  height: 70px;
+  margin: 8px 8px 8px 10px;
+}
+
+.header-search input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 130px;
+}
